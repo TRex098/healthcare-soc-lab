@@ -1,0 +1,21 @@
+__pycache__/
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+*.py[cod]
+.venv/
+.env
+config/lab.local.json
+.superpowers/
+*.pcapng
+*.pcap
+*.sqlite*
+*.log
+evidence/*
+!evidence/environment/
+evidence/environment/*
+
+# Personal / sensitive — keep off public repo
+Project.docx
+report/Healthcare_SOC_Report.docx
