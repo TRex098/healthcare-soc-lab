@@ -76,8 +76,6 @@ def primary_operations(scenario, seed, policy_mode='observe', **options):
                    for i in range(3)]
     else:
         raise ValueError('Unknown scenario')
-    else:
-        raise ValueError('Unknown scenario')
     return result
 
 
